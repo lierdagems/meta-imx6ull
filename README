@@ -1,0 +1,42 @@
+Please see the corresponding sections below for details.
+
+This README file contains information on the contents of the meta-imx6ull layer.
+
+Dependencies
+============
+
+  [OECORE]
+  URI: https://github.com/openembedded/openembedded-core.git
+  branch: same dedicated branch as meta-imx6ull
+
+  [BITBAKE]
+  URI: https://github.com/openembedded/bitbake.git
+  branch: branch associated to oecore branch
+
+  or
+
+  [YOCTO]
+  URI: git://git.yoctoproject.org/poky.git
+  branch: same dedicated branch as meta-imx6ull
+
+Patches
+=======
+
+Maintainer: hey <hey@lierda.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-imx6ull layer to your build
+ II. Misc
+
+
+I. Adding the meta-imx6ull layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-imx6ull'
+
+II. Misc
+========
+
+--- replace with specific information about the meta-imx6ull layer ---
