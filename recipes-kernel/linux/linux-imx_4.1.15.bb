@@ -10,7 +10,7 @@ SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
 
 do_configure() {
-	oe_runmake ${KBUILD_DEFCONFIG} -C ${S} O=${B}
+    oe_runmake ${KBUILD_DEFCONFIG} -C ${S} O=${B}
 }
 
 MODULE_TARBALL_DEPLOY = "0"
